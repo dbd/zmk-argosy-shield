@@ -1,0 +1,12 @@
+file_format: "1"
+id: argosy
+name: Argosy
+type: shield
+url: https://github.com/dbd/argosy
+requires: [pro_micro]
+features:
+  - keys
+  - encoder
+siblings:
+  - argosy_left
+  - argosy_right

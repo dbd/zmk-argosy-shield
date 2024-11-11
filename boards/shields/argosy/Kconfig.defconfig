@@ -1,0 +1,15 @@
+if SHIELD_ARGOSY_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Argosy"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+endif
+
+if SHIELD_ARGOSY_LEFT || SHIELD_ARGOSY_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
