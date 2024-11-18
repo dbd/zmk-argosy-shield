@@ -137,11 +137,11 @@
         layer1 {
             display-name = "layer1";
             bindings = <
-&kp ESC    &trans  &trans    &trans        &trans         &trans  &trans      &trans       &trans    &trans    &trans     &trans
-&kp TAB    &trans  &trans    &kp MINUS     &kp EQUAL      &kp L   &trans      &trans       &trans    &trans    &trans     &kp LCTRL
-&kp LSHFT  &trans  &trans    &kp LBKT      &kp RBKT       &kp M   &kp N       &kp E        &kp I     &kp O     &kp ESC    &kp RC(RA(F13))
-&kp LCTRL  &trans  &trans    &kp LS(LBRC)  &kp LS(RBRC)   &kp V   &kp C_MUTE  &kp C_PP     &kp K     &kp H     &kp COMMA  &kp DOT
-&kp DEL    &trans  &kp LGUI  &kp LALT      &lthp SYM ESC  &mo 3   &kp ENTER   &lt NAV ESC  &kp RALT  &kp RGUI
+&kp ESC    &trans  &trans    &trans        &trans         &trans     &trans      &trans       &trans    &trans    &trans     &trans
+&kp TAB    &trans  &trans    &kp MINUS     &kp EQUAL      &kp L      &trans      &trans       &trans    &trans    &trans     &kp LCTRL
+&kp LSHFT  &trans  &trans    &kp LBKT      &kp RBKT       &kp M      &kp N       &kp E        &kp I     &kp O     &kp ESC    &kp RC(RA(F13))
+&kp LCTRL  &trans  &trans    &kp LS(LBRC)  &kp LS(RBRC)   &kp LC(B)  &kp C_MUTE  &kp C_PP     &kp K     &kp H     &kp COMMA  &kp DOT
+&kp DEL    &trans  &kp LGUI  &kp LALT      &lthp SYM ESC  &mo 3      &kp ENTER   &lt NAV ESC  &kp RALT  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
