@@ -76,12 +76,14 @@
         { "label":   "GUI", "row": 5, "col": 1, "r":   0, "x":  3.99, "y": 6.80 },
         { "label":  "MUTE", "row": 5, "col": 2, "r":   0, "x":  4.96, "y": 6.60 },
         { "label": "ENTER", "row": 5, "col": 3, "r":   0, "x":  5.94, "y": 6.80 },
-        { "label":"LAYER UP", "row": 5, "col": 4, "r": 0, "x":  6.92, "y": 7.00 },
-        { "label":"LAYER DOWN", "row": 5, "col": 5,"r":0, "x": 10.21, "y": 7.00 },
-        { "label": "SPACE", "row": 5, "col": 6, "r":   0, "x": 11.19, "y": 6.80 },
-        { "label":  "DOWN", "row": 5, "col": 7, "r":   0, "x": 12.16, "y": 6.60 },
-        { "label":    "UP", "row": 5, "col": 8, "r":   0, "x": 13.13, "y": 6.80 },
-        { "label":   "ALT", "row": 5, "col": 9, "r":   0, "x": 14.33, "y": 7.00 }
+        { "label":"LAYER UP",  "row": 5, "col": 4, "r": 0, "x":  6.92, "y": 7.00 },
+        { "label":"LAYER DOWN","row": 5, "col": 5, "r": 0, "x": 10.21, "y": 7.00 },
+        { "label":"LEFT ENC",  "row": 5, "col": 6, "r": 0, "x":  6.92, "y": 6.00 },
+        { "label":"RIGHT ENC", "row": 5, "col": 7, "r": 0, "x": 10.21, "y": 6.00 },
+        { "label": "SPACE", "row": 5, "col": 8, "r":   0, "x": 11.19, "y": 6.80 },
+        { "label":  "DOWN", "row": 5, "col": 9, "r":   0, "x": 12.16, "y": 6.60 },
+        { "label":    "UP", "row": 5, "col": 10, "r":   0, "x": 13.13, "y": 6.80 },
+        { "label":   "ALT", "row": 5, "col": 11, "r":   0, "x": 14.33, "y": 7.00 }
       ]
     }
   },
@@ -92,7 +94,7 @@
       "identifier": "encoder_left",
       "compatible": "alps,ec11",
       "label": "LEFT_ENCODER",
-      "enabled": false
+      "enabled": true
     },
     {
       "ref": "encoder_right",
@@ -100,7 +102,7 @@
       "identifier": "encoder_right",
       "compatible": "alps,ec11",
       "label": "RIGHT_ENCODER",
-      "enabled": false
+      "enabled": true
     }
   ]
 }
